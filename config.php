@@ -9,7 +9,7 @@ $options = [
 ];
 
 try {
-  $pdo = new PDO($dsn, "root", "", $options);
+  $pdo = new PDO($dsn, "ezio", "26112008", $options);
 } 
 catch (Exception $e) {
   error_log($e->getMessage());
